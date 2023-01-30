@@ -1,0 +1,527 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,300&family=Poor+Story&family=Rubik+Bubbles&family=Xanh+Mono:ital@1&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,300&family=Open+Sans:wght@300&family=Poor+Story&family=Rubik+Bubbles&family=Xanh+Mono:ital@1&display=swap'); */
+
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@1,300&family=Open+Sans:wght@300&family=Poor+Story&family=Roboto:wght@300&family=Rubik+Bubbles&family=Xanh+Mono:ital@1&display=swap'); 
+ :root{
+    --main-bg-color:#2455f4;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:var(--main-bg-color) ;
+    font-family: 'Lato', sans-serif;
+    height: 58px;
+    position: sticky;
+    overflow: hidden;
+    width: 80vw;
+}
+ul{
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+list-style-type: none;
+
+}
+header ul li a{
+display: flex;
+padding: 0 23px;
+font-size: 20px;
+text-decoration: none;
+color: white;
+}
+footer p{
+    display: flex;
+    background-color:var(--main-bg-color) ;
+    font-family: 'Lato', sans-serif;
+height:45px;
+justify-content: center;
+align-items: center;
+}
+.fplogo img{
+    width:100px;
+    height: 100px;
+}
+ul li img{
+    background-color: blue;
+    width:60px;
+height: 60px;
+}
+li input{
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+    position: relative;
+    left: 12px;
+}
+li select{
+    position: relative;
+    left: 95px;
+    height:36px;
+}
+.become a{
+    position: relative;
+    left: 95px;
+}
+.More select{
+    position: relative;
+    left: 95px;
+    height:36px;
+}
+.cart a{
+    position: relative;
+    left: 95px; 
+}
+.fpimh img{
+    position: relative;
+    right: 179px;
+    
+}
+.searching{
+    position: relative;
+    right: 162px;
+}
+.svgbtn{
+    position: relative;
+    right: 145px;
+}
+#card{
+    position: relative;
+    right: 137px;
+}
+.become{
+    position: relative;
+    right: 72px;
+}
+.More{
+    position: relative;
+    right: 22px;
+}
+.cart{
+    position: relative;
+    right: -11px;
+}
+.main{
+    display: flex;
+}
+.st1{
+text-align: center;
+width:23px;
+height:34px;
+position: relative;
+    left: 10px;
+    cursor: pointer;
+}
+.List{
+    display: flex;
+}
+.List img{
+    height: 95px;
+    width: 95px;
+}
+.nd2{
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+}
+.rd3{
+    position: relative;
+    left: 64px;
+    cursor: pointer;
+}
+.th4{
+    position: relative;
+    left: 3px;
+    cursor: pointer;
+}
+.th5{
+    position: relative;
+    left: -42px; 
+    cursor: pointer;
+}
+.th6{
+    position: relative;
+    left: -44px;
+    cursor: pointer; 
+}
+.th7{
+    position: relative;
+    left: -74px;  
+    cursor: pointer;
+}
+.th8{
+    position: relative;
+    left: -113px;
+    cursor: pointer;
+}
+.th9{
+    position: relative;
+    left: -125px;
+    cursor: pointer; 
+}
+.th10{
+    position: relative;
+    left: -148px;
+    cursor: pointer; 
+}
+.Grocery{
+    position: relative;
+    left: 10px;
+    cursor: pointer; 
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.mobiles{
+    position: relative;
+    left: 13px; 
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.Fashion{
+    position: relative;
+    left: -12px;
+    bottom: -104px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.electronic{
+    position: relative;
+    left: 10px;
+    cursor: pointer; 
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.home{
+    position: relative;
+    left: 36px;
+    cursor: pointer; 
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.appliances{
+    position: relative;
+    left: 10px; 
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.travel{
+    position: relative;
+    left: 10px; 
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.top{
+    position: relative;
+    left: 30px; 
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.beauty{
+    position: relative;
+    left: 10px; 
+    cursor: pointer; 
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.twowheelers{
+    position: relative;
+    left: 10px;
+    cursor: pointer; 
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 26px;
+}
+#card{
+    cursor: pointer;
+}
+html,
+body {
+  height: 100%;
+}
+.card{
+    display: flex;
+width:100%
+}
+.st1i{
+display: flex;
+overflow: hidden;
+}
+.st2i{
+    display: none; 
+overflow: hidden;
+
+}
+.st3i{
+    display: none;
+overflow: hidden;
+
+}
+.st4i{
+    display: none;  
+overflow: hidden;
+
+}
+.arrowbtnimg img{
+    width: 64px;
+    height:78px;
+   
+}
+.arrowbtnimg{
+    position: relative;
+    bottom: -195px;
+}
+.arrowbtnimgleft img{
+    width: 64px;
+    height:78px;
+   
+}
+.arrowbtn2{
+    left: 1400px;
+    position: relative;
+    bottom: -198px;
+}
+/* @keyframes anime1 {
+    0%{
+      display:none;
+    }
+    25%{
+        display: flex;
+    }
+}
+@keyframes anime2 {
+    50%{
+      display:none;
+    }
+    75%{
+        display: flex;
+    }
+}
+.st2i{
+    animation: anime1 2s ease-in infinte;
+    } */
+#b1{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: -154px;
+}
+#b2{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 1395px;
+    bottom: 154px;
+}
+footer{
+    position: relative;
+    bottom: -165px;
+    background-color: black;
+}
+.extro{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.best_of_electronics{
+    top: -39px;
+    position: relative;
+    left: 52px;  
+     
+display: flex;
+}
+.boe{
+    background: transparent;
+    width: 130px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    
+}
+
+.view_all{
+    border-radius: 4px;
+    background-color: var(--main-bg-color);
+    color: white;
+    width: 107px;
+    height: 47px;
+    font-size: 21px;
+    position: relative;
+    bottom: -8px;
+    top: -104px;
+    left: 52px;  
+}
+.myslides{
+    height: 50vh;
+    width: 100vw;
+}
+.best_of_electronics img{
+    position: relative;
+    left: 119px;
+    text-align: center;
+}
+.headphone_img{
+    position: relative;
+    top: -176px;
+}
+.topdeal{
+    position: relative;
+    top: -270px;
+    left: 261px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+
+}
+.shopnow{
+    position: relative;
+    top: -256px;
+    left: 323px;
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+} 
+
+.tripods{
+    position: relative;
+    top: -231px;
+    left: 334px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.hairdryerimg{
+    position: relative;
+    left: 306px;
+    bottom: 280px;
+}
+.L0Z3Pu{
+    position: relative;
+    left: -153px;
+    /* color: wheat; */
+    z-index: 3;
+}
+
+.bestofhairdryer{
+    position: relative;
+    top: -373px;
+    left: 606px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+.from399{
+    position: relative;
+    top: -358px;
+    left: 600px;
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+.phillipsnovahavells{
+    position: relative;
+    top: -335px;
+    left: 604px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.topmirrorless{
+    position: relative;
+    left: 490px;
+    bottom: 354px;
+}
+.powerbanks{
+    position: relative;
+    left: 682px;
+    bottom: 318px;
+}
+
+.List{
+ background-color: white; 
+ border: 2px solid bisque;  
+ margin: 17px;
+}
+.main_part_2{
+    background-color: white; 
+    margin: 17px;
+
+}
+ #b2{
+    position: relative;
+    left: 1500px;
+    top: -593px;
+}
+.Top_Mirrorlss_cameras{
+    position: relative;
+    top: -509px;
+    left: 901px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+.shopnowcam{
+    position: relative;
+    top: -499px;
+    left: 926px;
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+.sony_canon_fulfijim{
+    position: relative;
+    top: -473px;
+    left: 949px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.Premium_Powerbanks{
+    position: relative;
+    top: -595px;
+    left: 1261px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+}
+.shopnowbank{
+    position: relative;
+    top: -585px;
+    left: 1275px;
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+.MI_Realme{
+    position: relative;
+    top: -559px;
+    left: 1297px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+#card select{
+    background: #2455f4;
+    border: 0;
+    width: 73px;
+    color: white;
+    font-size:17px;
+}
+.More select{
+    background: #2455f4;
+    border: 0;
+    width: 73px;
+font-size: 17px;
+    color: white;
+}
+.become a{
+   font-size: 23px; 
+}
+.searching input{
+    font-size: 13px;
+}
+/* THe End  */
